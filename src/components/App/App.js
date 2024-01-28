@@ -12,8 +12,9 @@ export const App = () => {
   };
   useEffect(() => {
     const fetchProducts = async () => {
-      const res = await fetch('http://localhost:4000/posts');
+      const res = await fetch('https://jsonplaceholder.typicode.com/posts');
       const data = await res.json();
+      console.log(data);
       setPosts(data);
     };
     fetchProducts();
