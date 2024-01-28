@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Inforce-test-task2/static/css/main.b5320759.css",
+    "main.js": "/Inforce-test-task2/static/js/main.cab2d71f.js",
+    "index.html": "/Inforce-test-task2/index.html",
+    "main.b5320759.css.map": "/Inforce-test-task2/static/css/main.b5320759.css.map",
+    "main.cab2d71f.js.map": "/Inforce-test-task2/static/js/main.cab2d71f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5320759.css",
+    "static/js/main.cab2d71f.js"
+  ]
+}
