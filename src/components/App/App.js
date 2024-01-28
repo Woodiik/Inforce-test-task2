@@ -12,7 +12,7 @@ export const App = () => {
   };
   useEffect(() => {
     const fetchProducts = async () => {
-      const res = await fetch('http://localhost:4000/posts');
+      const res = await fetch('https://gist.github.com/88429b356911d9290418b8c4700d8d30/raw/posts');
       const data = await res.json();
       setPosts(data);
     };
